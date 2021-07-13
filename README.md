@@ -12,6 +12,7 @@ EMPLOYEE:
   last name,
   work place,
   oib (personal identification number)
+  .....
   
 TASKS:
   title,
@@ -22,14 +23,19 @@ TASKS:
   time spent,
   start date_time,
   end date_time
+  .....
+  
  
 There are 3 types of users: User, Superuser and Admin.
 Login is as follows
 
+
 username:pasword
 ..................
 user      : user
+..
 superuser : superuser
+..
 admin     : admin
 
 user can:
