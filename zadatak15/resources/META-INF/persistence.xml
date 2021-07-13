@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0"
+    xmlns="http://java.sun.com/xml/ns/persistence" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/persistence 
+    http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+    
+    <persistence-unit name="zadatak15" transaction-type = "RESOURCE_LOCAL">
+    	<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+    	
+    	<class>com.zadatak15.zadatak15.Employee</class>
+    	<class>com.zadatak15.zadatak15.Task</class>
+    	<properties>
+    		<property name="javax.persistence.jdbc.driver" 
+    		value="com.mysql.jdbc.Driver"/>
+    		<property name="javax.persistence.jdbc.url" 
+    		value="jdbc:mysql://remotemysql.com:3306/UMlI4dawQs?useSSL=false"/>
+    		<property name="javax.persistence.jdbc.user" value="UMlI4dawQs" />
+            <property name="javax.persistence.jdbc.password" value="K9NiYGc2Ok" />
+            <property name="hibernate.enable_lazy_load_no_trans" value="true"/>
+            <property name="show_sql" value="true"/>
+			<property name="hbm2ddl.auto" value="update"/>
+    	</properties>
+    </persistence-unit>
+ </persistence>
