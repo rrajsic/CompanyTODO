@@ -26,11 +26,11 @@ TASKS:
 There are 3 types of users: User, Superuser and Admin.
 Login is as follows
 
-username | pasword
+username:pasword
 ..................
-user      | user
-superuser | superuser
-admin     | admin
+user      : user
+superuser : superuser
+admin     : admin
 
 user can:
  -Print Employees,
